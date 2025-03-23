@@ -15,6 +15,7 @@ print(false or false)
 print(not false)
 -- 第一个为nil或者false时，返回第一个，否则返回第二个
 -- 除了nil和false以外都是真值
+-- 只有nil和false为假
 print(123 and 456)
 print(nil and true)
 
@@ -25,3 +26,7 @@ b = "World"
 print(a..b)
 -- 返回字符串或表的长度
 print(#b)
+
+a = nil
+b = 0
+print(b > 10 and "yes" or "no")
